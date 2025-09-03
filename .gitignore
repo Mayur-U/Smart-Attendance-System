@@ -1,0 +1,46 @@
+# Python Virtual Environment
+attendance_env_py311/
+venv/
+.env/
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Editor backup/swap files
+*.swp
+*.bak
+*.tmp
+
+# Configuration file with secrets (IMPORTANT!)
+config.py
+
+# Output Directories
+attendance_info/
+reports/
+recordings/
+snapshots/
+# captured_frames/   # Uncomment if you re-add frame capture
+
+# Encoding/Data Files
+*.pkl
+encodings_deepface.pkl
+
+# Large Model Files (YOLO, OpenCV DNN)
+*.pt
+*.onnx
+*.weights
+*.caffemodel
+*.prototxt
+*.pb
+*.tflite
+
+# Logs
+*.log
+
+# System / Misc
+.DS_Store
+Thumbs.db
